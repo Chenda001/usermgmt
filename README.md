@@ -80,24 +80,3 @@ Upon successful update, a confirmation message is displayed.
 
 
 
-
-
-
-
-=======
-Planned Features
-
-User Registration & Login
-Email Verification
-Profile View & Edit
-Change Password
-Admin Panel
-Unit Tests (models and views)
-
-
-1. Project set up
-
-    I started by by setting up my project by by the name "user-mgmt" and create an app and named it accounts. To ensure that django recognises the app, i added it in the installed apps in the user-mgmt/setting.py.
-
-    
->>>>>>> cdcaf01 (my commit)
