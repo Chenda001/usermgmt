@@ -1,11 +1,37 @@
-{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+</head>
+<body>
+	<header>
+		<h1 style = "color: blue;">Welcome to Our Website</h1>
+
+        		<section>
+			<h2 style = "background-color: blue; color: wheat;">Latest Updates</h2>
+			<p>Welcome</p>
+		</section>
+		<section>
+			<h3 style = "background-color: blue;  color: wheat;">Featured Content</h3>
+			<p>Check out our latest features and updates!</p>
+		</section>
 
 
-{% extends 'base.html' %}
+		<nav>
+			<ul>
+				<li><a href="#">Register</a></li>
+				<li><a href="#">Login</a></li>
+				<li><a href="#">Profile</a></li>
+                <li><a href="#">Edit Profile</a></li>
+                <li><a href="#">Change Password</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
 
-{% block title %}Home{% endblock %}
-
-{% block content %}
-    <h2>Welcome {{ user.username }}!</h2>
-    <p>This is the home page of your User Management system.</p>
-{% endblock %}
+	</main>
+	<footer>
+		<p>&copy; 2025 User Management</p>
+	</footer>
+</body>
+</html>
