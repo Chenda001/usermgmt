@@ -14,10 +14,10 @@ This project includes a simple user authentication system using Django's built-i
 it What’s Implemented
 User Registration
 Uses Django’s UserCreationForm
-Allows users to register with a username, email, and password
+Allows users to register with a username, name, phone and password
 Accessible at: /accounts/register/
 
-<img width="659" height="97" alt="Screenshot 2025-07-07 193610" src="https://github.com/user-attachments/assets/287e18ef-eb0a-420d-9570-842de9b70051" />
+<img width="828" height="549" alt="Screenshot 2025-07-11 140702" src="https://github.com/user-attachments/assets/f3253210-331f-4e04-a8c2-73db633b3624" />
 
 
 _User Login_
@@ -74,17 +74,71 @@ Template used for sending email content (if HTML email is used).
 
 **STEP 4: PROFILE MANAGEMENT **
 
+**HOME PAGE**
+This page welcomes you to our site and shows what our site can offer
+
+
+<img width="1015" height="618" alt="Screenshot 2025-07-11 143143" src="https://github.com/user-attachments/assets/f44e1a5c-732f-43e1-8d1a-d68416ce77a3" />
+
+
+This page would look like this:
+
+
+<img width="955" height="440" alt="Screenshot 2025-07-11 150800" src="https://github.com/user-attachments/assets/49c5efb0-0cb0-40d0-bfbb-e50cb4e33b49" />
+
+
+
+**REGISTRATION "Register"**
+this page allows a new user to sign in and become part of our membership.
+
+
+<img width="780" height="536" alt="Screenshot 2025-07-11 150325" src="https://github.com/user-attachments/assets/e7f7548c-2249-41af-8efa-ee6901a7229c" />
+
+
+
+**LOGIN**
+
+This page allows for a registered user to login to the site.
+
+<img width="763" height="498" alt="Screenshot 2025-07-11 150133" src="https://github.com/user-attachments/assets/a90d17fb-e8fb-4ad3-b62e-202ac6f7d173" />
+
+
+
+**PROFILE**
+
+This page shows the 👤 user's details after registration and also after editing their profile.
+
+<img width="946" height="507" alt="Screenshot 2025-07-11 150023" src="https://github.com/user-attachments/assets/14f208da-ca26-4e5f-8aa8-3c1a4b7ccb96" />
+
+
 **Edit Profile**
 Logged-in users can view their personal profile page.
 Users can update their information (e.g., username, email, etc.).
 Form is prefilled with current data for easy editing.
 Upon successful update, a confirmation message is displayed.
 
-<img width="773" height="255" alt="Screenshot 2025-07-07 194733" src="https://github.com/user-attachments/assets/dc463aa3-af52-4d61-b9c1-012368f8d48b" />
+
+<img width="1009" height="621" alt="Screenshot 2025-07-11 142403" src="https://github.com/user-attachments/assets/9d38e71d-fb23-46aa-b24c-99e70404248d" />
+
+This page would look like this:
+
+
+<img width="472" height="395" alt="Screenshot 2025-07-11 150927" src="https://github.com/user-attachments/assets/ddd59ac2-187f-4157-9ece-858d19b35391" />
 
 
 
-<img width="802" height="426" alt="Screenshot 2025-07-07 200443" src="https://github.com/user-attachments/assets/664ab7f6-d8b6-4f26-949c-7bfa83a1fce2" />
+**CHANGE PASSWORD**
+This page allows a registered 👤 user or 👥 users to change oassword if they feel that they are 📒 not secured with the current password.
+
+
+<img width="953" height="537" alt="Screenshot 2025-07-11 145937" src="https://github.com/user-attachments/assets/8d569871-141e-40e3-867b-a3f40366ec29" />
+
+  The outcome should look like:
+
+
+  <img width="450" height="260" alt="Screenshot 2025-07-11 151037" src="https://github.com/user-attachments/assets/1b9975a1-f625-458b-8c34-927df9bbeb10" />
+
+  
 
 
 
