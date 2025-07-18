@@ -11,7 +11,7 @@
 
 This project includes a simple user authentication system using Django's built-in tools.
 
-it What’s Implemented
+What’s Implemented
 User Registration
 Uses Django’s UserCreationForm
 Allows users to register with a username, name, phone and password
